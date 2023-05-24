@@ -1,0 +1,3 @@
+[submodule "chartmetric-web-app"]
+	path = chartmetric-web-app
+	url = https://github.com/chartmetric/chartmetric-web-app.git
