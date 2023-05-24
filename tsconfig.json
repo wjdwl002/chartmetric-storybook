@@ -22,9 +22,9 @@
     "baseUrl": ".",
     "paths": {
         "@/*": ["./src/*"],
-        "@chartmetric/*": ["chartmetric-web-app/*"],
-        "@component/*": ["chartmetric-web-app/components/*"],
-        "@sharedComponents/*": ["chartmetric-web-app/components/shared/*"],
+        "@chartmetric/*": ["./chartmetric-web-app/*"],
+        "@component/*": ["./chartmetric-web-app/components/*"],
+        "@sharedComponents/*": ["./chartmetric-web-app/components/shared/*"],
     },
   },
   "include": [
