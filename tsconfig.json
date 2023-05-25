@@ -1,4 +1,5 @@
 {
+  "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -18,16 +19,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "baseUrl": ".",
-    "paths": {
-        "@/*": ["./src/*"],
-        "@chartmetric/*": ["./chartmetric-web-app/*"],
-        "@component/*": ["./chartmetric-web-app/components/*"],
-        "@sharedComponents/*": ["./chartmetric-web-app/components/shared/*"],
-    },
+    "jsx": "react-jsx"
   },
   "include": [
-    "src"
-  ],
+    "src",
+    "craco.config.js"
+  ]
 }
